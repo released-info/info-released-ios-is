@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1672013797-->
+<!--timestamp=1672073182-->
 
 <head>
   <meta charset="UTF-8">
@@ -21,14 +21,14 @@
   <meta property="og:url" content="https://is.ios.released.info" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Is iOS 17 Released?" />
-  <meta property="og:description" content="iOS 17 is not released. Still waiting! #released.info" />
+  <meta property="og:description" content="iOS 17 will be released in 171 days! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/ios/ios-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
   <meta name="twitter:title" content="Is iOS 17 Released?" />
-  <meta name="twitter:description" content="iOS 17 is not released. Still waiting! #released.info" />
+  <meta name="twitter:description" content="iOS 17 will be released in 171 days! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/ios/ios-logo.png" />
 
   <meta name="url" content="https://is.ios.released.info" />
@@ -45,7 +45,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="-1" />
+  <input id="released-days" type="hidden" value="171" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -84,12 +84,12 @@
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
             
-            
             <span>
-              <div class="white-box" id="not-yet">
-                Not Yet
+              <div class="odometer-content" id="counter">
+                <div id="odometer"></div>
               </div>
             </span>
+            
             
 
             <!-- END -->
@@ -99,10 +99,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              There is no information about iOS 17 release date
+              Days until iOS 17 is officially released
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              iOS 17 release is planned to be on <span class="btn-primary">16th June 2023</span>
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -113,7 +117,61 @@
       </div>
     </section>
 
-    
+    <section class="features-section">
+      <div class="container-lg">
+        <h2>
+          Meet iOS 17
+        </h2>
+        <div class="row mb-5">
+          <div class="col-md-5">
+
+            <ul>
+              <li>
+                Call Recording
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                Improved Notifications
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                Dual Apps
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-md-5">
+            <ul>
+              <li>
+                Split Screen
+              </li>
+            </ul>
+            <ul>
+              <li>
+                iMessage redesign
+              </li>
+            </ul>
+            <ul>
+              <li>
+                iMessage part of Apple’s AR headset
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center">
+          <a target="_blank" href="https://insiderpaper.com/ios-17/" class="btn btn-primary btn-lg">Read more</a>
+        </div>
+      </div>
+      <div class="logo-container">
+        <span role="img" aria-label="${configuration.logoAlt2}"
+          style="background-image: url(&#39;https://released.info/assets/img/technologies/ios/ios-logo2.png&#39;);">
+        </span>
+      </div>
+    </section>
 
     <section class="posts-section">
       <div class="container-lg">
@@ -244,7 +302,10 @@
     <section class="about-section">
       <div class="container-lg">
         <div>
-    <h2>About iOS</h2>
+    <h1>Version</h1>
+    To check which version of iOS you are using, go to the Settings app and tap General.
+    Then tap About and you will see the version number listed next to Version.
+    <h1>About iOS</h1>
     iOS is the operating system for Apple mobile devices, it is developed by the same corporation
     and makes waves in publicity and pop culture every time it releases a major update,
     usually with flashy features being added (usually oriented toward the newer flagship phones, although not
